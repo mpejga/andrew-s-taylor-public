@@ -349,6 +349,12 @@ switch ($locale) {
         "Dell Display Manager 2.2"
         "Dell Peripheral Manager"
         "MSTeams"
+        # custom whitelist
+        "Microsoft.MicrosoftEdge.Stable"
+        "Microsoft.Paint"
+        "Microsoft.MPEG2VideoExtension"
+        "Microsoft.WindowsAlarms"
+        "Microsoft.WindowsTerminal"
     )
     ##If $customwhitelist is set, split on the comma and add to whitelist
     if ($customwhitelist) {
