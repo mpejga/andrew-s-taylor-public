@@ -355,6 +355,12 @@ switch ($locale) {
         "Microsoft.MPEG2VideoExtension"
         "Microsoft.WindowsAlarms"
         "Microsoft.WindowsTerminal"
+	"AD2F1837.HPSupportAssistant"
+	"Microsoft.WindowsAppRuntime.CBS"
+ 	"MicrosoftWindows.Client.WebExperience"
+ 	"NotepadPlusPlus"
+ 	"Microsoft.NET.Native.Runtime.1.4"
+ 	"Microsoft.NET.Native.Framework.1.3" 
     )
     ##If $customwhitelist is set, split on the comma and add to whitelist
     if ($customwhitelist) {
